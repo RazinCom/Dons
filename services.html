@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги и цены — Автосервис «Донс» Верхнеяркеево</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <a href="index.html" class="logo">Автосервис <br><span>ДОНС</span></a>
+        <div class="contact-header"><a href="tel:+79177771988"> +7 (917) 777-19-88</a></div>
+        <div class="burger"><span></span><span></span><span></span></div>
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="services.html">Услуги</a>
+            <a href="about.html">О нас</a>
+            <a href="index.html#otz">Отзывы</a>
+            <a href="index.html#contacts">Контакты</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container" style="padding: 60px 20px;">
+        <h1 class="section-title" style="margin-bottom: 40px;"> Наши услуги и цены</h1>
+        <p style="text-align: center; margin-bottom: 30px;">Прозрачный прайс-лист без скрытых наценок. Цены указаны за работу (без учета запчастей).</p>
+        
+        <table class="price-table">
+            <thead>
+                <tr><th>Услуга</th><th>Цена</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Компьютерная диагностика</td><td class="service-price">от 500 ₽</td></tr>
+                <tr><td>Диагностика подвески</td><td class="service-price">от 800 ₽</td></tr>
+                <tr><td>Диагностика двигателя</td><td class="service-price">от 1 000 ₽</td></tr>
+                <tr><td>Развал - схождение</td><td class="service-price">от 2 500 ₽</td></tr>
+                <tr><td>Замена ремня ГРМ</td><td class="service-price">от 5 000 ₽</td></tr>
+                <tr><td>Ремонт головки блока цилиндров</td><td class="service-price">от 15 000 ₽</td></tr>
+                <tr><td>Ремонт головки блока цилиндров</td><td class="service-price">от 1 500 ₽</td></tr>
+                <tr><td>Замена сайлентблоков</td><td class="service-price">от 1 000 ₽</td></tr>
+                
+               
+            </tbody>
+        </table>
+        
+        <p style="text-align: center; margin-top: 20px; color: #555;">* Окончательная стоимость согласовывается после диагностики</p>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="#booking-form" class="btn btn-primary"> Записаться на ремонт</a>
+        </div>
+    </div>
+    
+    <!-- Форма записи -->
+    <section class="form-section" id="booking-form">
+        <div class="container">
+            <div>
+                <h2 style="color:white;">Запишитесь на ремонт</h2>
+                <p style="margin-top:15px;">Оставьте заявку — и мы перезвоним вам в течение 15 минут.</p>
+            </div>
+            <div class="booking-form">
+                <form action="mailto:dons.avto@mail.ru" method="GET" enctype="text/plain">
+                    <div class="form-group"><input type="text" name="Имя" placeholder="Ваше имя" required></div>
+                    <div class="form-group"><input type="tel" name="Телефон" placeholder="+7 (___) ___-__-__" required></div>
+                    <div class="form-group"><input type="text" name="Автомобиль" placeholder="Марка и модель"></div>
+                    <div class="form-group">
+                        <select name="Услуга">
+                            <option value="">Выберите услугу</option>
+                            <option>Диагностика</option><option>Ремонт двигателя</option>
+                            <option>Ремонт ходовой</option><option>Ремонт тормозов</option>
+                            <option>Автоэлектрика</option><option>ТО (замена масла)</option>
+                            <option>Шиномонтаж</option><option>Ремонт кондиционера</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%"> Отправить заявку</button>
+                    <p class="form-note">* После нажатия откроется письмо — просто отправьте его</p>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 Автосервис «Донс» — с. Верхнеяркеево, Илишевский район, Башкортостан</p>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
